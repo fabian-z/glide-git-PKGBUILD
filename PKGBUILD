@@ -19,8 +19,10 @@ pkgver() {
 }
 
 build() {
-	cd "$srcdir/$pkgname"
-    make bootstrap
+    cd "$srcdir/$pkgname"
+    export GOPATH="$srcdir"
+    go get ./... || true
+    make build
 }
 
 package() {
