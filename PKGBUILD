@@ -1,7 +1,7 @@
 #Maintainer wicast <wicastchen at hotmail>
 
 pkgname=glide-git
-pkgver=0.8.3.r0.g4662222
+pkgver=0.10.2.r47.ge73500c
 pkgrel=1
 pkgdesc="Simplified Go project management, dependency management, and vendoring."
 arch=('any')
